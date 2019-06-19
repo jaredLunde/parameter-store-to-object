@@ -6,7 +6,8 @@
           "@stellar-apps/es",
           {
             "env": {
-              "useBuiltIns": false,
+              "useBuiltIns": "usage",
+              "corejs": 3,
               "targets": {"node": "8"}
             },
             "runtime": false
